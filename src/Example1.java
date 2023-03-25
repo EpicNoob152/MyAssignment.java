@@ -1,3 +1,11 @@
+/**
+ * Class: Exercise 1
+ * @author: Jaylan Igbinoba
+ * @Course: ITEC 2140 Spring 2023
+ * @verison: 1.0
+ * @Written: March 25, 2023
+ * @Description: This Code tries to call the reverseDoubleChar Method.
+ */
 
 public class Example1 {
 

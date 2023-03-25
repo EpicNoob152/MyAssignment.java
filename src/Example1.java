@@ -10,6 +10,7 @@
 public class Example1 {
 
 public static void main(String[] args){
+    //This gives the word, calls, and prints the method.
     String word = "apple";
     reverseDoubleChar(word);
     System.out.print(reverseDoubleChar(word));
@@ -17,6 +18,7 @@ public static void main(String[] args){
 }
 
     public static String reverseDoubleChar(String word) {
+    //This is the method where it doubles each character and then reverses the word.
         String result = "";
         for (int i = word.length() - 1; i >= 0; i--) {
             result += word.charAt(i) + "" + word.charAt(i);

@@ -11,13 +11,13 @@ public class Example1 {
 
 public static void main(String[] args){
     //This gives the word, calls, and prints the method.
-    String word = "apple";
-    reverseDoubleChar(word);
-    System.out.print(reverseDoubleChar(word));
+    Example1 im = new Example1();
+    im.reverseDoubleChar("apple");
+    System.out.print(im.reverseDoubleChar("apple"));
 
 }
 
-    public static String reverseDoubleChar(String word) {
+    public String reverseDoubleChar(String word) {
     //This is the method where it doubles each character and then reverses the word.
         String result = "";
         for (int i = word.length() - 1; i >= 0; i--) {

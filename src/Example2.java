@@ -10,11 +10,11 @@
 public class Example2 {
     public static void main(String[] args){
         //This gives n a number and then the method will be called and printed
-        int n = 45;
-        sumDigits(n);
-        System.out.println(sumDigits(n));
+        Example2 im = new Example2();
+        im.sumDigits(45);
+        System.out.println(im.sumDigits(45));
     }
-    private static int sumDigits(int n) {
+    private int sumDigits(int n) {
         //This is the method.
         if (n == 0) {
             return 0;

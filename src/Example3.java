@@ -10,13 +10,13 @@
 public class Example3 {
     public static void main(String[] args){
         //This code gives the name, calls, and prints method.
-        String n = "Jaylan";
-        birthdayName(n);
-        System.out.println(birthdayName(n));
+        Example3 im = new Example3();
+        im.birthdayName("Jaylan");
+        System.out.println(im.birthdayName("Jaylan"));
 
 
     }
-    public static String birthdayName(String name){
+    public String birthdayName(String name){
         //This is the method code birthdayName
         return "Happy Birthday " + name + "!";
     }

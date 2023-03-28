@@ -9,12 +9,12 @@
 public class Example10 {
     public static void main(String[] args){
         //This code gives the name of the String and then calls, and prints the method.
-        String str = "A man, a plan, a canal: Panama!";
-        hasPalindrome(str);
-        System.out.println(hasPalindrome(str));
+        Example10 im = new Example10();
+        im.hasPalindrome("A man, a plan, a canal: Panama!");
+        System.out.println( im.hasPalindrome("A man, a plan, a canal: Panama!"));
 
     }
-    public static boolean hasPalindrome(String str) {
+    public boolean hasPalindrome(String str) {
         str = str.toLowerCase().replaceAll("[^a-zA-Z0-9]", "");
         for (int i = 0; i < str.length(); i++) {
             // check for odd-length palindromes

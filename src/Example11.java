@@ -9,13 +9,13 @@
 public class Example11 {
     public static void main(String[] args){
         //This gives n a number and then the method will be called and printed
-        int n = 46;
-        powerOfTwo(n);
-        System.out.println(powerOfTwo(n));
+        Example11 im = new Example11();
+        im.powerOfTwo(46);
+        System.out.println(im.powerOfTwo(46));
     }
 
 
-    public static boolean powerOfTwo(int n) {
+    public boolean powerOfTwo(int n) {
         //This is the method.
         if (n == 0) {
             return false;

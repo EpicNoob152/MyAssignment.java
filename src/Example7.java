@@ -10,14 +10,14 @@
 public class Example7 {
     public static void main(String[] args){
         //This code assigns the name of the Strings and then calls, and prints the method.
-    String a = "Hello";
-    String b = "There";
-    nonStart(a,b);
-    System.out.println(nonStart(a,b));
+
+        Example7 im = new Example7();
+    im.nonStart("Hello","There");
+    System.out.println( im.nonStart("Hello","There"));
 
 
     }
-    public static String nonStart(String a, String b) {
+    public String nonStart(String a, String b) {
         //This is the nonStart Method
         if (a.length() < 2 || b.length() < 2) {
             return "";

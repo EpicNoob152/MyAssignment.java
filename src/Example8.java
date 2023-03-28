@@ -9,12 +9,13 @@
 public class Example8 {
     public static void main(String[] args){
         //This code gives the number of the integer and then calls, and prints the method.
-        int n = 9;
-        fibonacci(n);
-        System.out.println(fibonacci(n));
+
+        Example8 im = new Example8();
+        im.fibonacci(9);
+        System.out.println(im.fibonacci(9));
     }
 
-    public static int fibonacci(int n) {
+    public int fibonacci(int n) {
         //This is the method fibonacci
         if (n < 0) {
             throw new IllegalArgumentException("Input must be non-negative.");

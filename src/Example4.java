@@ -9,14 +9,14 @@
 public class Example4 {
     public static void main(String[] args){
         //This code gives the name of the String and then calls, and prints the method.
-        String str = "holiday";
-        missingFront(str);
-        System.out.println(missingFront(str));
+        Example4 im = new Example4();
+        im.missingFront("hello");
+        System.out.println(im.missingFront("hello"));
 
 
 
     }
-    public static String missingFront(String str){
+    public String missingFront(String str){
         //This is the method code missingFront
         return str.substring(3);
     }

@@ -9,11 +9,11 @@
 public class Example6 {
     public static void main(String[] args){
         //This code gives the name of the String and then calls, and prints the method.
-        String str = "hello";
-        everyOther(str);
-        System.out.println(everyOther(str));
+        Example6 im = new Example6();
+        im.everyOther("hello");
+        System.out.println( im.everyOther("hello"));
     }
-    public static String everyOther(String str) {
+    public String everyOther(String str) {
         //This is the method code missingFront
         String result = "";
         for (int i = 0; i < str.length(); i += 2) {

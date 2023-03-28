@@ -9,12 +9,12 @@
 public class Example5 {
     public static void main(String[] args){
         //This code gives the name of the String and then calls, and prints the method.
-        String str = "codingbat";
-        swapEnds(str);
-        System.out.println(swapEnds(str));
+        Example5 im = new Example5();
+        im.swapEnds("codingbat");
+        System.out.println(im.swapEnds("codingbat"));
 
     }
-    public static String swapEnds(String str) {
+    public String swapEnds(String str) {
         //This is the method code swapEnds
         if (str.length() <= 1) {
             return str;
